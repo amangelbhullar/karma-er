@@ -1,0 +1,1322 @@
+{
+ "note": "All numbers from runs of the released code; ACIS = all-candidate inductive scoring, TOIS = target-only inductive scoring. Unseen = entity absent from the training split.",
+ "link_prediction": [
+  {
+   "dataset": "ICEWS14-renet",
+   "counting_unseen": 0.0368,
+   "counting_seen": 0.3079,
+   "karmax_best_ACIS_unseen": 0.0034,
+   "karma_er_unseen_mean": 0.0319,
+   "karma_er_unseen_std": 0.0017,
+   "karma_er_seen_mean": 0.2622,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": null,
+   "n_unseen_queries": 5834
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "counting_unseen": 0.0294,
+   "counting_seen": 0.2985,
+   "karmax_best_ACIS_unseen": 0.0034,
+   "karma_er_unseen_mean": 0.0167,
+   "karma_er_unseen_std": 0.0017,
+   "karma_er_seen_mean": 0.3118,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": null,
+   "n_unseen_queries": 975
+  },
+  {
+   "dataset": "WIKI-clean",
+   "counting_unseen": 0.403,
+   "counting_seen": 0.7718,
+   "karmax_best_ACIS_unseen": 0.0021,
+   "karma_er_unseen_mean": 0.4948,
+   "karma_er_unseen_std": 0.0294,
+   "karma_er_seen_mean": 0.8222,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": null,
+   "n_unseen_queries": 11086
+  },
+  {
+   "dataset": "YAGO15k",
+   "counting_unseen": 0.45,
+   "counting_seen": 0.8498,
+   "karmax_best_ACIS_unseen": 0.0069,
+   "karma_er_unseen_mean": 0.5384,
+   "karma_er_unseen_std": 0.0237,
+   "karma_er_seen_mean": 0.7964,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": null,
+   "n_unseen_queries": 1102
+  },
+  {
+   "dataset": "YAGO11k",
+   "counting_unseen": 0.0016,
+   "counting_seen": 0.0885,
+   "karmax_best_ACIS_unseen": 0.0034,
+   "karma_er_unseen_mean": 0.0454,
+   "karma_er_unseen_std": 0.0263,
+   "karma_er_seen_mean": 0.1731,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": 0.0002,
+   "n_unseen_queries": 5
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "counting_unseen": 0.0381,
+   "counting_seen": 0.1719,
+   "karmax_best_ACIS_unseen": 0.0054,
+   "karma_er_unseen_mean": 0.0707,
+   "karma_er_unseen_std": 0.0207,
+   "karma_er_seen_mean": 0.2666,
+   "karma_er_seeds": 3,
+   "tlogic_unseen": null,
+   "tipnn_unseen": 0.0453,
+   "n_unseen_queries": 25
+  }
+ ],
+ "buckets": [
+  {
+   "dataset": "ICEWS14-renet",
+   "prior_facts": "0",
+   "n": 1869,
+   "karma_er": 0.0005,
+   "counting": 0.0
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "prior_facts": "1-2",
+   "n": 1018,
+   "karma_er": 0.0159,
+   "counting": 0.02
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "prior_facts": "3-5",
+   "n": 700,
+   "karma_er": 0.0292,
+   "counting": 0.039
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "prior_facts": "6+",
+   "n": 2247,
+   "karma_er": 0.0699,
+   "counting": 0.074
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "prior_facts": "0",
+   "n": 656,
+   "karma_er": 0.0002,
+   "counting": 0.0
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "prior_facts": "1-2",
+   "n": 177,
+   "karma_er": 0.0251,
+   "counting": 0.095
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "prior_facts": "3-5",
+   "n": 56,
+   "karma_er": 0.0563,
+   "counting": 0.098
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "prior_facts": "6+",
+   "n": 86,
+   "karma_er": 0.0928,
+   "counting": 0.074
+  },
+  {
+   "dataset": "WIKI-clean",
+   "prior_facts": "0",
+   "n": 1128,
+   "karma_er": 0.0004,
+   "counting": 0.0
+  },
+  {
+   "dataset": "WIKI-clean",
+   "prior_facts": "1-2",
+   "n": 845,
+   "karma_er": 0.2576,
+   "counting": 0.235
+  },
+  {
+   "dataset": "WIKI-clean",
+   "prior_facts": "3-5",
+   "n": 959,
+   "karma_er": 0.44,
+   "counting": 0.361
+  },
+  {
+   "dataset": "WIKI-clean",
+   "prior_facts": "6+",
+   "n": 8154,
+   "karma_er": 0.5835,
+   "counting": 0.481
+  },
+  {
+   "dataset": "YAGO15k",
+   "prior_facts": "0",
+   "n": 220,
+   "karma_er": 0.0033,
+   "counting": 0.0
+  },
+  {
+   "dataset": "YAGO15k",
+   "prior_facts": "1-2",
+   "n": 129,
+   "karma_er": 0.6977,
+   "counting": 0.62
+  },
+  {
+   "dataset": "YAGO15k",
+   "prior_facts": "3-5",
+   "n": 254,
+   "karma_er": 0.6986,
+   "counting": 0.566
+  },
+  {
+   "dataset": "YAGO15k",
+   "prior_facts": "6+",
+   "n": 499,
+   "karma_er": 0.721,
+   "counting": 0.545
+  },
+  {
+   "dataset": "YAGO11k",
+   "prior_facts": "0",
+   "n": 3,
+   "karma_er": 0.0046,
+   "counting": 0.0
+  },
+  {
+   "dataset": "YAGO11k",
+   "prior_facts": "1-2",
+   "n": 2,
+   "karma_er": 0.1106,
+   "counting": 0.004
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "prior_facts": "0",
+   "n": 15,
+   "karma_er": 0.0044,
+   "counting": 0.0
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "prior_facts": "1-2",
+   "n": 10,
+   "karma_er": 0.097,
+   "counting": 0.095
+  }
+ ],
+ "protocol_audit": [
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.1086,
+   "unseen_TOIS": 0.1601,
+   "unseen_ACIS": 0.0031
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.1737,
+   "unseen_TOIS": 0.018,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.1224,
+   "unseen_TOIS": 0.0017,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.1069,
+   "unseen_TOIS": 0.0017,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.1625,
+   "unseen_TOIS": 0.0227,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.1866,
+   "unseen_TOIS": 0.0063,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.1614,
+   "unseen_TOIS": 0.0591,
+   "unseen_ACIS": 0.0034
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.1885,
+   "unseen_TOIS": 0.0068,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.139,
+   "unseen_TOIS": 0.0922,
+   "unseen_ACIS": 0.0022
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.1776,
+   "unseen_TOIS": 0.0033,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.174,
+   "unseen_TOIS": 0.0521,
+   "unseen_ACIS": 0.0009
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.1832,
+   "unseen_TOIS": 0.0209,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.1288,
+   "unseen_TOIS": 0.1172,
+   "unseen_ACIS": 0.0018
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.1731,
+   "unseen_TOIS": 0.0338,
+   "unseen_ACIS": 0.0005
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.1692,
+   "unseen_TOIS": 0.0222,
+   "unseen_ACIS": 0.0014
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.1798,
+   "unseen_TOIS": 0.0278,
+   "unseen_ACIS": 0.0005
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.1316,
+   "unseen_TOIS": 0.109,
+   "unseen_ACIS": 0.0023
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.2027,
+   "unseen_TOIS": 0.1202,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.0425,
+   "unseen_TOIS": 0.0795,
+   "unseen_ACIS": 0.0022
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.1699,
+   "unseen_TOIS": 0.1114,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.2007,
+   "unseen_TOIS": 0.0269,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.2261,
+   "unseen_TOIS": 0.0303,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.1956,
+   "unseen_TOIS": 0.0648,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.2167,
+   "unseen_TOIS": 0.1009,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.1162,
+   "unseen_TOIS": 0.1094,
+   "unseen_ACIS": 0.0022
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.2109,
+   "unseen_TOIS": 0.073,
+   "unseen_ACIS": 0.0005
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.144,
+   "unseen_TOIS": 0.0988,
+   "unseen_ACIS": 0.0026
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.1974,
+   "unseen_TOIS": 0.0747,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.207,
+   "unseen_TOIS": 0.0471,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.2197,
+   "unseen_TOIS": 0.0662,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.1609,
+   "unseen_TOIS": 0.0736,
+   "unseen_ACIS": 0.0034
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.2132,
+   "unseen_TOIS": 0.094,
+   "unseen_ACIS": 0.0008
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.634,
+   "unseen_TOIS": 0.0676,
+   "unseen_ACIS": 0.0014
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.633,
+   "unseen_TOIS": 0.0419,
+   "unseen_ACIS": 0.0005
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.5692,
+   "unseen_TOIS": 0.0086,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.6319,
+   "unseen_TOIS": 0.0175,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.6229,
+   "unseen_TOIS": 0.3778,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.6311,
+   "unseen_TOIS": 0.5773,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.5984,
+   "unseen_TOIS": 0.2451,
+   "unseen_ACIS": 0.0019
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.6096,
+   "unseen_TOIS": 0.7724,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.6092,
+   "unseen_TOIS": 0.2006,
+   "unseen_ACIS": 0.0021
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.6095,
+   "unseen_TOIS": 0.4378,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.4959,
+   "unseen_TOIS": 0.4268,
+   "unseen_ACIS": 0.0009
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.5643,
+   "unseen_TOIS": 0.7817,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.5875,
+   "unseen_TOIS": 0.2682,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.6221,
+   "unseen_TOIS": 0.4883,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.6158,
+   "unseen_TOIS": 0.4821,
+   "unseen_ACIS": 0.0008
+  },
+  {
+   "dataset": "WIKI-clean",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.6167,
+   "unseen_TOIS": 0.7844,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.2465,
+   "unseen_TOIS": 0.0014,
+   "unseen_ACIS": 0.0008
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.2465,
+   "unseen_TOIS": 0.0015,
+   "unseen_ACIS": 0.0009
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.2266,
+   "unseen_TOIS": 0.0032,
+   "unseen_ACIS": 0.0026
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.2251,
+   "unseen_TOIS": 0.0038,
+   "unseen_ACIS": 0.0025
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.2551,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.2554,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.2496,
+   "unseen_TOIS": 0.0011,
+   "unseen_ACIS": 0.0007
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.2503,
+   "unseen_TOIS": 0.0019,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.2473,
+   "unseen_TOIS": 0.0015,
+   "unseen_ACIS": 0.001
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.2475,
+   "unseen_TOIS": 0.003,
+   "unseen_ACIS": 0.0018
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.2446,
+   "unseen_TOIS": 0.0066,
+   "unseen_ACIS": 0.0054
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.2466,
+   "unseen_TOIS": 0.0004,
+   "unseen_ACIS": 0.0004
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.2497,
+   "unseen_TOIS": 0.0002,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.2499,
+   "unseen_TOIS": 0.0007,
+   "unseen_ACIS": 0.0005
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.2505,
+   "unseen_TOIS": 0.0004,
+   "unseen_ACIS": 0.0003
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.2508,
+   "unseen_TOIS": 0.0011,
+   "unseen_ACIS": 0.0008
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.1749,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.1749,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.0987,
+   "unseen_TOIS": 0.0034,
+   "unseen_ACIS": 0.0034
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.0995,
+   "unseen_TOIS": 0.0033,
+   "unseen_ACIS": 0.0033
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.1836,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.1836,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.1697,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.1699,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.1644,
+   "unseen_TOIS": 0.0002,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.1647,
+   "unseen_TOIS": 0.0002,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.1626,
+   "unseen_TOIS": 0.0006,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.1627,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.1715,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.1718,
+   "unseen_TOIS": 0.0002,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.1689,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO11k",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.1691,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaa",
+   "history": "online",
+   "seen": 0.6423,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaa",
+   "history": "train",
+   "seen": 0.6432,
+   "unseen_TOIS": 0.0004,
+   "unseen_ACIS": 0.0002
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmabase",
+   "history": "online",
+   "seen": 0.6334,
+   "unseen_TOIS": 0.004,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmabase",
+   "history": "train",
+   "seen": 0.6165,
+   "unseen_TOIS": 0.0273,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmac",
+   "history": "online",
+   "seen": 0.6512,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmac",
+   "history": "train",
+   "seen": 0.6511,
+   "unseen_TOIS": 0.0001,
+   "unseen_ACIS": 0.0001
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaf",
+   "history": "online",
+   "seen": 0.6424,
+   "unseen_TOIS": 0.0064,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaf",
+   "history": "train",
+   "seen": 0.6421,
+   "unseen_TOIS": 0.0409,
+   "unseen_ACIS": 0.0017
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaplus",
+   "history": "online",
+   "seen": 0.6394,
+   "unseen_TOIS": 0.002,
+   "unseen_ACIS": 0.0006
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmaplus",
+   "history": "train",
+   "seen": 0.6434,
+   "unseen_TOIS": 0.0094,
+   "unseen_ACIS": 0.001
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmar",
+   "history": "online",
+   "seen": 0.6208,
+   "unseen_TOIS": 0.3042,
+   "unseen_ACIS": 0.0033
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmar",
+   "history": "train",
+   "seen": 0.6318,
+   "unseen_TOIS": 0.0948,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmarl",
+   "history": "online",
+   "seen": 0.639,
+   "unseen_TOIS": 0.215,
+   "unseen_ACIS": 0.0069
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmarl",
+   "history": "train",
+   "seen": 0.6407,
+   "unseen_TOIS": 0.0849,
+   "unseen_ACIS": 0.0013
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmat",
+   "history": "online",
+   "seen": 0.6353,
+   "unseen_TOIS": 0.0931,
+   "unseen_ACIS": 0.0016
+  },
+  {
+   "dataset": "YAGO15k",
+   "variant": "karmat",
+   "history": "train",
+   "seen": 0.6353,
+   "unseen_TOIS": 0.1274,
+   "unseen_ACIS": 0.0017
+  }
+ ],
+ "random_control": [
+  {
+   "run": "karmaa_observed",
+   "unseen_TOIS": 0.0082,
+   "unseen_ACIS": 0.0066
+  },
+  {
+   "run": "karmaa_train",
+   "unseen_TOIS": 0.0107,
+   "unseen_ACIS": 0.0075
+  },
+  {
+   "run": "karmabase_observed",
+   "unseen_TOIS": 0.2861,
+   "unseen_ACIS": 0.0237
+  },
+  {
+   "run": "karmabase_train",
+   "unseen_TOIS": 1.0,
+   "unseen_ACIS": 0.033
+  },
+  {
+   "run": "karmac_observed",
+   "unseen_TOIS": 0.0114,
+   "unseen_ACIS": 0.0082
+  },
+  {
+   "run": "karmac_train",
+   "unseen_TOIS": 0.008,
+   "unseen_ACIS": 0.0062
+  },
+  {
+   "run": "karmaf_observed",
+   "unseen_TOIS": 0.0106,
+   "unseen_ACIS": 0.0074
+  },
+  {
+   "run": "karmaf_train",
+   "unseen_TOIS": 0.0122,
+   "unseen_ACIS": 0.0075
+  },
+  {
+   "run": "karmaplus_observed",
+   "unseen_TOIS": 0.0086,
+   "unseen_ACIS": 0.0066
+  },
+  {
+   "run": "karmaplus_train",
+   "unseen_TOIS": 0.0136,
+   "unseen_ACIS": 0.008
+  },
+  {
+   "run": "karmar_observed",
+   "unseen_TOIS": 0.0069,
+   "unseen_ACIS": 0.0058
+  },
+  {
+   "run": "karmar_train",
+   "unseen_TOIS": 0.0114,
+   "unseen_ACIS": 0.0081
+  },
+  {
+   "run": "karmarl_observed",
+   "unseen_TOIS": 0.0753,
+   "unseen_ACIS": 0.0166
+  },
+  {
+   "run": "karmarl_train",
+   "unseen_TOIS": 0.2291,
+   "unseen_ACIS": 0.0278
+  },
+  {
+   "run": "karmat_observed",
+   "unseen_TOIS": 0.0107,
+   "unseen_ACIS": 0.0075
+  },
+  {
+   "run": "karmat_train",
+   "unseen_TOIS": 0.0196,
+   "unseen_ACIS": 0.0104
+  }
+ ],
+ "ablations": [
+  {
+   "dataset": "ICEWS14-renet",
+   "removed": "noanchor",
+   "unseen": 0.0358,
+   "seen": 0.2619
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "removed": "noepisodic",
+   "unseen": 0.0001,
+   "seen": 0.2344
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "removed": "nounk",
+   "unseen": 0.0254,
+   "seen": 0.2555
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "removed": "noanchor",
+   "unseen": 0.0142,
+   "seen": 0.311
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "removed": "noepisodic",
+   "unseen": 0.0002,
+   "seen": 0.3092
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "removed": "nounk",
+   "unseen": 0.0234,
+   "seen": 0.3117
+  },
+  {
+   "dataset": "WIKI-clean",
+   "removed": "noanchor",
+   "unseen": 0.4673,
+   "seen": 0.8236
+  },
+  {
+   "dataset": "WIKI-clean",
+   "removed": "noepisodic",
+   "unseen": 0.1398,
+   "seen": 0.8008
+  },
+  {
+   "dataset": "WIKI-clean",
+   "removed": "nounk",
+   "unseen": 0.4256,
+   "seen": 0.8306
+  },
+  {
+   "dataset": "YAGO15k",
+   "removed": "noanchor",
+   "unseen": 0.5679,
+   "seen": 0.7887
+  },
+  {
+   "dataset": "YAGO15k",
+   "removed": "noepisodic",
+   "unseen": 0.007,
+   "seen": 0.7565
+  },
+  {
+   "dataset": "YAGO15k",
+   "removed": "nounk",
+   "unseen": 0.5051,
+   "seen": 0.7941
+  }
+ ],
+ "fact_verification": [
+  {
+   "dataset": "ICEWS14-renet",
+   "negatives": "type",
+   "karma_er_new": 0.7393,
+   "counting_new": 0.2316,
+   "karma_er_all": 0.866,
+   "counting_all": 0.8506
+  },
+  {
+   "dataset": "ICEWS14-renet",
+   "negatives": "random",
+   "karma_er_new": 0.9069,
+   "counting_new": 0.5865,
+   "karma_er_all": 0.948,
+   "counting_all": 0.9487
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "negatives": "type",
+   "karma_er_new": 0.5648,
+   "counting_new": 0.0984,
+   "karma_er_all": 0.9066,
+   "counting_all": 0.8028
+  },
+  {
+   "dataset": "ICEWS18-renet",
+   "negatives": "random",
+   "karma_er_new": 0.8654,
+   "counting_new": 0.4902,
+   "karma_er_all": 0.969,
+   "counting_all": 0.9167
+  },
+  {
+   "dataset": "WIKI-clean",
+   "negatives": "type",
+   "karma_er_new": 0.8283,
+   "counting_new": 0.7191,
+   "karma_er_all": 0.9341,
+   "counting_all": 0.9021
+  },
+  {
+   "dataset": "WIKI-clean",
+   "negatives": "random",
+   "karma_er_new": 0.946,
+   "counting_new": 0.9262,
+   "karma_er_all": 0.9867,
+   "counting_all": 0.9864
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "negatives": "type",
+   "karma_er_new": 0.824,
+   "counting_new": 0.216,
+   "karma_er_all": 0.8549,
+   "counting_all": 0.6042
+  },
+  {
+   "dataset": "WIKIDATA12k",
+   "negatives": "random",
+   "karma_er_new": 0.9568,
+   "counting_new": 0.6768,
+   "karma_er_all": 0.9491,
+   "counting_all": 0.9025
+  },
+  {
+   "dataset": "YAGO11k",
+   "negatives": "type",
+   "karma_er_new": 0.48,
+   "counting_new": 0.04,
+   "karma_er_all": 0.7405,
+   "counting_all": 0.5336
+  },
+  {
+   "dataset": "YAGO11k",
+   "negatives": "random",
+   "karma_er_new": 1.0,
+   "counting_new": 0.7,
+   "karma_er_all": 0.9409,
+   "counting_all": 0.8772
+  },
+  {
+   "dataset": "YAGO15k",
+   "negatives": "type",
+   "karma_er_new": 0.9352,
+   "counting_new": 0.7139,
+   "karma_er_all": 0.9754,
+   "counting_all": 0.9489
+  },
+  {
+   "dataset": "YAGO15k",
+   "negatives": "random",
+   "karma_er_new": 0.9876,
+   "counting_new": 0.8867,
+   "karma_er_all": 0.9926,
+   "counting_all": 0.9878
+  },
+  {
+   "dataset": "ML-cold",
+   "negatives": "type",
+   "karma_er_new": 0.9107,
+   "counting_new": 0.0,
+   "karma_er_all": 0.701,
+   "counting_all": 0.541
+  },
+  {
+   "dataset": "ML-cold",
+   "negatives": "random",
+   "karma_er_new": 0.9137,
+   "counting_new": 0.2316,
+   "karma_er_all": 0.8428,
+   "counting_all": 0.7151
+  },
+  {
+   "dataset": "STRING-PPI",
+   "negatives": "type",
+   "karma_er_new": 0.9771,
+   "counting_new": 0.19,
+   "karma_er_all": 0.9561,
+   "counting_all": 0.5054
+  },
+  {
+   "dataset": "STRING-PPI",
+   "negatives": "random",
+   "karma_er_new": 0.9734,
+   "counting_new": 0.3151,
+   "karma_er_all": 0.9578,
+   "counting_all": 0.5847
+  }
+ ],
+ "recommendation": [
+  {
+   "method": "Popularity",
+   "mrr": 0.0301,
+   "hits10": 0.0608,
+   "n": 95648
+  },
+  {
+   "method": "KARMA-ER seed 42",
+   "mrr": 0.0296,
+   "hits10": 0.0594,
+   "n": 95648
+  }
+ ],
+ "biomedical": [
+  {
+   "method": "Counting",
+   "mrr": 0.0001,
+   "hits10": 0.0
+  },
+  {
+   "method": "Common neighbours (Adamic-Adar)",
+   "mrr": 0.004,
+   "hits10": 0.0039
+  },
+  {
+   "method": "KARMA-ER seed 1",
+   "mrr": 0.1874,
+   "hits10": 0.3219
+  },
+  {
+   "method": "KARMA-ER seed 2",
+   "mrr": 0.2131,
+   "hits10": 0.3849
+  },
+  {
+   "method": "KARMA-ER seed 42",
+   "mrr": 0.2023,
+   "hits10": 0.3564
+  }
+ ]
+}
